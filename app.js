@@ -1,22 +1,17 @@
-// Log to console
-console.log('Hello World');
-console.log(123);
-console.log(true);
-var greeting = 'Hello';
-console.log(greeting);
-console.log([1, 2, 3, 4]);
-console.log({ a: 1, b: 2 });
-console.table({ a: 1, b: 2 });
-console.error('This is some error');
-console.clear();
-console.warn('This is a warning');
-console.time('Hello');
-console.log('Hello World');
-console.log('Hello World');
-console.log('Hello World');
-console.log('Hello World');
-console.log('Hello World');
-console.log('Hello World');
-console.log('Hello World');
-console.log('Hello World');
-console.timeEnd('Hello');
+const name = 'Jarone';
+const age = 30;
+const job = 'Web Developer';
+const city = 'Miami';
+let html;
+
+//Template Strings/Literals (es6)
+html = `
+    <ul>
+    <li>Name: ${name}</li>
+    <li>Age: ${age}</li>
+    <li>Job: ${job}</li>
+    <li>City: ${city}</li>
+    </ul>
+`;
+
+document.body.innerHTML = html;
